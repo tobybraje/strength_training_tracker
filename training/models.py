@@ -23,5 +23,3 @@ class Set(TimeStampedModel):
     weight = models.IntegerField()
     reps = models.IntegerField()
     exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE, related_name="sets")
-
-
